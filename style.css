@@ -1,0 +1,78 @@
+/*.text {
+  font-size: 24px;
+}
+.moreText {
+  display: none;
+}
+
+.text.show-more .moreText {
+  display: inline;
+}
+.text.show-more .dots {
+  display: none;
+}*/
+.flex-con {
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  font-size: 1.5rem;
+}
+
+
+.flexbox {
+  padding: 1em;
+  flex: 30.3%;
+  justify-self: center;
+}
+
+
+
+h4 {
+  font-family: monospace;
+}
+
+#moreText {
+  display: none;
+}
+
+
+
+/*To Do List*/
+
+html, body {
+  width: 100%;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-box {
+  width: 360px;
+}
+
+#inputField {
+  width: 300px;
+  height: 46px;
+  border-width: 0;
+  border: 1px solid black;
+  outline: none;
+  font-size: 25px;
+  vertical-align: middle;
+}
+
+#addToDo {
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+  vertical-align: middle;
+  font-size: 30px;
+}
+
+.paragraph-styling {
+  margin: 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.to-dos {
+  margin-top: 25px;
+}
